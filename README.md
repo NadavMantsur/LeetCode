@@ -1,0 +1,2 @@
+# Infinity
+all infinity exercises
