@@ -1,2 +1,2 @@
-# Infinity
-all infinity exercises
+# Infinity - Leetcode interview preparation
+all Leetcode exercises
