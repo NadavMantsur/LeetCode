@@ -43,7 +43,7 @@ public:
 
         curr = head;
 
-        // special case
+        // special case - removing the first element
         if (numOfNodes == n)
         {
             head = head->next;
