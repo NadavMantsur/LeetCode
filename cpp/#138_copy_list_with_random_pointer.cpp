@@ -1,4 +1,4 @@
-/*
+
 // Definition for a Node.
 class Node {
 public:
@@ -8,11 +8,11 @@ public:
     
     Node(int _val) {
         val = _val;
-        next = NULL;
-        random = NULL;
+        next = nullptr;
+        random = nullptr;
     }
 };
-*/
+
 
 // solution:  using a hash map to store the mapping between original nodes and 
 // their corresponding new nodes in the copied list.
