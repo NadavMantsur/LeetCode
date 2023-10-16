@@ -4,7 +4,7 @@
 class Solution {
 public:
     bool checkInclusion(std::string s1, std::string s2) {
-        // storing character counts of s1
+        // storing character counts of s1 - using the anagram conception
         std::unordered_map<char, int> charCount;
         for (char c : s1) {
             charCount[c]++;
