@@ -6,6 +6,7 @@
  *     struct TreeNode *right;
  * };
  */
+/* time comlexity: O(n)*/
 int maxDepth(struct TreeNode* root){
     if (NULL == root){
         return 0;
