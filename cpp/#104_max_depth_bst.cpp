@@ -28,3 +28,16 @@ public:
         return max(maxLeft, maxRight);
     }
 };
+
+
+/*shorter solution*/
+int maxDepth(TreeNode* root) 
+    {
+        if (nullptr == root)
+        {
+            return 0;
+        }
+
+        return 1 + max(maxDepth(root->left), maxDepth(root->right));
+    }
+};
